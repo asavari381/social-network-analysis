@@ -1,3 +1,32 @@
 # social-network-analysis
-Social_Network_Ads
-The Dataset contains information about users on a Social Networking site and using that information as features for our ML model, the model predicts whether a particular user after clicking on an ad on the Social networking site goes on to buy a particular product or not. It is a CLASSIFICATION PROBLEM as the output says whether the user buys the product or not, so it’s either a yes or a no. Well this particular Social Network has a Business client which lets assume is a car company which advertises itself by putting adds on the social networking site. Now the work of the social network here is to gather information as to whether the user bought the product or not.
+
+# Social Network Analysis for Influencer Identification and Behavior Prediction
+
+This project implements a social network analysis tool for identifying key influencers and predicting user behavior using graph machine learning techniques.
+
+## Project Structure
+
+- `data/`: Contains the raw and processed data.
+- `notebooks/`: Jupyter notebooks for data preprocessing and graph construction.
+- `src/`: Python scripts for influencer identification, graph processing, and GNN model implementation.
+- `results/`: Contains the output files, such as identified influencers and behavior predictions.
+- `requirements.txt`: Python dependencies required to run the project.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/social-network-analysis.git
+   cd social-network-analysis
+Install dependencies:
+pip install -r requirements.txt
+python src/main.py
+
+### **Step 3: Upload to GitHub**
+1. Navigate to your project directory and initialize a git repository:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/social-network-analysis.git
+git push -u origin master
