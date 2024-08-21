@@ -6,10 +6,12 @@ This project implements a social network analysis tool for identifying key influ
 
 ## Project Structure
 
-- `data/`: Contains the raw and processed data.
-- `notebooks/`: Jupyter notebooks for data preprocessing and graph construction.
-- `src/`: Python scripts for influencer identification, graph processing, and GNN model implementation.
-- `results/`: Contains the output files, such as identified influencers and behavior predictions.
+- `Social_Network_Ads.csv`: Contains the raw and processed data.
+- `graph_construction`: Jupyter notebooks for graph construction.
+-  `data_preprocessing.py': Jupyter notebooks for data preprocessing.
+- `influencer_identification`: Python scripts for influencer identification, graph processing, and GNN model implementation.
+- `gnn_model`: Contains graph neural network
+- `main`: contains main script
 - `requirements.txt`: Python dependencies required to run the project.
 
 ## How to Run
